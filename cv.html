@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/favicon.png" type="favicon" sizes="16x16">
+
+<!--Here inline css is used as it only contains the properties of the CV which is not used in other pages-->
+
+
+    <style> 
+ @import url('./fonts/calibri-font-family/');
+@import url('./fonts/Open_Sans/');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* Styles for the CV*/
+.mainCV{
+    display:inline-block;
+    width: 70%;
+    margin-left: 18%;
+    border-color:#FFC000 ;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    background-color:white;
+}
+.imageCV{
+    background-color:none;
+}
+.row1Text{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #FF5D4C ;
+}
+.row1CV{
+    background-color: white;
+    display: flex;
+    margin-bottom: -5px;
+}
+.row1TextBox{
+    margin-left: 100px;
+    padding: 30px;
+}
+.row1Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#FF5D4C;
+    text-decoration: underline #FF5D4C 5px;
+    text-underline-offset: 5px;
+}
+.row2CV{
+background-color:#FF5D4C;
+    display: flex;
+}
+.row2Title{
+    width: 300px;
+    background-color:black;
+    margin: 20px;
+    margin-left: 0;
+}
+.row2TitleText{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.row2Name{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.secondPart{
+    display: flex;
+}
+.contactCV{
+    width: 350px;
+    color: white;
+    background-color:#595959;
+    padding: 25px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.expertiseCV{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #404040;
+    padding: 25px;
+    color: white;
+}
+.educationCV{
+ 
+    color: white;
+    background-color:#000000;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.row3Text{
+    
+    padding: 30px;
+    width: 100%;
+    
+}
+.fa-edge{
+    color: white;
+    font-size: 20px;
+    margin-left: -15px;
+}
+.fa-file-download{
+  
+    color:red;
+    font-size: 25px;
+    text-align: center;
+}
+.downloadText{
+    font-size: 25px;
+}
+
+.workDetails{
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: flex;
+    color: #FF5D4C;
+}
+.jobTitle{
+    padding-right: 12px;
+
+}
+.jobCompanyName{
+    padding-right: 12px;
+
+}
+.jobDetails{
+    width: 92%;
+ text-align: justify;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+color: #FF5D4C;
+padding-right: 50px;
+}
+.educationTable{
+    text-align: center;
+    
+    font-size: 25px;
+    border: 2px solid #FF5D4C; 
+
+}
+.educationTable td, th{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    color:#FF5D4C;
+    padding: 5px;
+    border: 2px solid #FF5D4C; 
+}
+.educationTable th{
+    font-weight: 600;
+}
+    </style>
+
+</head>
+<script src="https://kit.fontawesome.com/38ef87d083.js" crossorigin="anonymous"></script>
+
+<body>
+    <button onclick="topFunction()" id="topBtn"><i class="fas fa-chevron-up"></i></button>
+    <nav>
+        <wrapper>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+        </wrapper>
+        <image class="navLogo" src="image/logo.png" width="100px" height="60px"></image>
+    </nav>
+    <div class="mainCV">
+        <div class="row1CV">
+            <div class="imageCV">
+                <image src="image/test.png" width='300px'></image>
+            </div>
+            <div>
+                <div class="row1TextBox">
+                    <div class="profileText">
+                        <h1 class="row1Title">PROFILE</h1>
+                    </div>
+                    <div class="row1Text">
+                        Hello! My name is Suraj Suebdi and I am 19 years old. I am currently persuaing my undergraduagte
+                        degree on BSc (Hons) Computing from Informatics College, Pokhara. I like to listen songs, play
+                        video games and somtimess little bit of drawing too. For, outer activities I like to go for hiking, cycling and swimming.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row2CV">
+            <div class="row2Title">
+                <h1 class="row2TitleText">IT Student</h1>
+            </div>
+            <div class="row2Text">
+                <h1 class="row2Name">Suraj Subedi</h1>
+            </div>
+        </div>
+        <div class="secondPart">
+            <div class="row3CV">
+                <div class="contactCV">
+                    <h1 class=row3ContactTitle>CONTACT</h1>
+                    <ul style="list-style: none;">
+                        <li><i class="fas fa-map-marker-alt"></i> &nbsp Bagar-1, Pokhara</li><br>
+                        <li><i class="fas fa-phone-alt"></i> &nbsp +977-9825107177</li><br>
+                        <li><i class="fas fa-envelope"></i>&nbsp Soorajsubedi1227@gmail.com</li><br>
+                        <li><a style="text-decoration: none; color: white;" ; href='https://subedisuraj.com.np'
+                                target="_blank"><i class="fab fa-edge"></i>&nbsp; Click to visit</a></li>
+                    </ul>
+                </div>
+                <div class="expertiseCV">
+                    <h1 class=row3ExpertiseTitle>EXPERTISE</h1>
+                    <ul style="list-style: none;">
+                        <div style="display:b;">
+                            <li>MS-Office</li>
+                            <div style="width: 100%; height:15px; background-color: grey; border: white solid 1px; ">
+                                <div style="width: 90%;height: 15px; background-color: white;">
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <br>
+                        <li>Photoshop</li>
+                        <div style="width: 100%; height:15px; background-color: grey; border: white solid 1px; ">
+                            <div style="width: 70%;height: 15px; background-color: white;">
+
+                            </div>
+
+                        </div>
+                        <br>
+                        <li>Web Development</li>
+                        <div style="width: 100%; height:15px; background-color: grey; border: white solid 1px; ">
+                            <div style="width: 50%;height: 15px; background-color: white;">
+
+                            </div>
+
+                        </div>
+                        <br>
+                        <li>Blender</li>
+                        <div style="width: 100%; height:15px; background-color: grey; border: white solid 1px; ">
+                            <div style="width: 60%;height: 15px; background-color: white;">
+
+                            </div>
+
+                        </div>
+                    </ul>
+                </div>
+                <div class="educationCV">
+                    <h1 class=row3EducationTitle>LANGUAGES</h1>
+                    <ul style="list-style: none;">
+                        <li>English- Fluent</li><br>
+                        <li>Nepali- Native/ Billingual</li><br>
+                        <li>Hindi - Fluent</li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div>
+                <div class="row3Text">
+                    <div class="row3Title">
+                        <h1 class="row1Title">Work Experience</h1>
+                        <div class="workDetails">
+                            <div class="jobTitle">Graphic Designer| </div>
+                            <div class="jobCompanyName">zebromart.com|</div>
+                            <div class="jobPeriod"> 2019-2020 </div>
+                        </div>
+                        <br>
+                        <div class="jobDetails"> I was assigned the job of handling the company's social pages as well
+                            as
+                            creating the all kind of graphical posters and sometimes videos of the company needed for
+                            the
+                            digital marketing. I was also assigned to look after the messages and reply to them for
+                            creating
+                            the public engagement with the company.
+                            <ul>
+                                <li>Digital Marketing</li>
+                                <li>Graphics Designing</li>
+                                <li>Techical Assistant</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row3Text">
+                    <div class="row3Title">
+                        <h1 class="row1Title">Education</h1>
+                        <table width="90%" border="1" class="educationTable">
+                            <div>
+                                <tr>
+                                    <th>Level</th>
+                                    <th> Year</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Lower-Secondary Level
+                                    </td>
+                                    <td>till 2016</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        Secondary Level
+                                    </td>
+                                    <td>2017-2018</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        +2
+                                    </td>
+                                    <td>2018-2020</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Level 4
+                                    </td>
+                                    <td>2021- present</td>
+                                </tr>
+                            </div>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row4CV">
+
+    </div>
+    <div class="mainFooter">
+        <div class="footerContent">
+            <div class="footerColumn1">
+                <div class="footerTitle">
+                    <h1 class="footerTitleText">QUICK&nbsp;LINKS</h1>
+                </div>
+                <div class="footerSubHeading"><a href="contact.html">CONTACT</a></div>
+                <div class="footerSubHeading"><a href="privacypolicy.html">PRIVACY&nbsp;POLICY</a></div>
+                <div class="footerSub">
+
+                </div>
+
+            </div>
+            <div class="footerColumn1">
+                <div class="footerTitle">
+                    <h1 class="footerTitleText">CATOLUGE</h1>
+                </div>
+                <div class="footerSubHeading"><a href="cv.html">CV</a></div>
+                <div class="footerSubHeading"><a href="blog.html">RESEARCH</a></div>
+                <div class="footerSubHeading"><a href="research.html">BLOG</a></div>
+                <div class="footerSub">
+
+                </div>
+
+
+            </div>
+            <div class="footerColumn1">
+                <div class="footerTitle">
+                    <h1 class="footerTitleText">&nbsp;SOCIAL</h1>
+                </div>
+                <br>
+                <div class="footerSubSocial">
+                    <a href="https://www.youtube.com/channel/UCXnd9F3ufcNXfbb_oPKaArQ" target="_blank">
+                        <div class="footerSocialIcons"><i class="fab fa-youtube"></i></div>
+                    </a>
+                    <a href="https://www.facebook.com/iamsurajsubedi/" target="_blank">
+                        <div class="footerSocialIcons"><i class="fab fa-facebook"></i></div>
+                    </a>
+                    <a href="https://www.instagram.com/iamsurajsubedi/" target="_blank">
+                        <div class="footerSocialIcons"><i class="fab fa-instagram"></i></div>
+                    </a>
+                    <a href="https://twitter.com/Suraj_subedi1" target="_blank">
+                        <div class="footerSocialIcons"><i class="fab fa-twitter"></i></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suraj-subedi-065849202/" target="_blank">
+                        <div class="footerSocialIcons"><i class="fab fa-linkedin-in"></i></div>
+                    </a>
+
+
+
+                </div>
+                <div class="footerSubHeading">&nbsp;©2021 SURAJ SUBEDI</div>
+
+            </div>
+            <form onsubmit=" return signUpCompleted()" action="index.html">
+                <div class="footerColumn1">
+                    <div class="footerTitle">
+                        <h1 class="footerTitleText">FOR ALL UPCOMING PROJECTS</h1>
+                    </div>
+                    <div class="footerSubSubscribe">
+                        <input class="footerEmailInput" type="email" placeholder="Email" name="E-mail">
+
+                    </div>
+                    <input type="submit" id="signUpBtn" value="SIGN UP">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="javascript/script.js"></script>
+
+</html>
